@@ -39,9 +39,9 @@ Python version : 3.6.5
 ### Usage
 
 ```
-_$cd into project directory_
- $python manage.py runserver  - _run the server_
- $python manage.py test - _run system unit tests_
- In Browser URL : 127.0.0.1:8000/categories/ - _Categories POST EndPoint_
- In Browser URL : 127.0.0.1:8000:categories/<id> - _Category specific GET EndPoint (id = 17 for sample data)_
+ $cd into project directory
+ $python manage.py runserver  - run the server
+ $python manage.py test - run system unit tests
+ In Browser URL : 127.0.0.1:8000/categories/ - Categories POST EndPoint
+ In Browser URL : 127.0.0.1:8000:categories/<id> - Category specific GET EndPoint (id = 17 for sample data)
 ```
